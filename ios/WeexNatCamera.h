@@ -1,5 +1,5 @@
 //
-//  NatWeexCamera.h
+//  WeexNatCamera.h
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
@@ -16,5 +16,5 @@
 
 @end
 
-@interface NatWeexCamera : NSObject<NatCameraPro>
+@interface WeexNatCamera : NSObject<NatCameraPro>
 @end

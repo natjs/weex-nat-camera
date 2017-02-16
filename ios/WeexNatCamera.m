@@ -1,17 +1,17 @@
 //
-//  NatWeexCamera.m
+//  WeexNatCamera.m
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
 //
 
-#import "NatWeexCamera.h"
+#import "WeexNatCamera.h"
 #import "NatCamera.h"
 
 
 #define KOriginalPhotoImagePath   \
 [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"OriginalPhotoImages"]
-@implementation NatWeexCamera
+@implementation WeexNatCamera
 WX_EXPORT_METHOD(@selector(captureImage::))
 WX_EXPORT_METHOD(@selector(captureVideo::))
 
