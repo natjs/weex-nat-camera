@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>headers
+<?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-camera"
@@ -26,6 +26,25 @@
 
      <!-- android -->
      <platform name="android">
+        <config-file target="config.xml" parent="/*">
+             <feature name="CameraModule">
+                 <param name="category" value="module" />
+                 <param name="android-package" value="com.nat.weex.CameraModule" />
+                 <param name="api" value="nat/camera" />
+             </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+             <uses-permission android:name="android.permission.CAMERA" />
+             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
+
+        <source-file
+             src="android/CameraModule.java"
+            target-dir="src/com/alibaba/weex/nat/CameraModule.java" />
+
+        <framework src="com.nat:camera:1.0.1" />
      </platform>
 
 </plugin>
