@@ -1,17 +1,21 @@
 {
-  "name": "nat-camera",
-  "version": "0.0.0",
-  "description": "Weex Plugin-nat-camera",
+  "name": "weex-nat-camera",
+  "version": "0.0.1",
+  "description": "Nat.js module: Camera",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "Nat",
+    "camera",
+    "take",
+    "photo",
+    "video",
     "Weex",
     "Plugin",
-    "commponent",
     "module",
-    "handle",
-    "weexpack"
+    "handle"
   ],
-  "author": ""
+  "author": "Acathur",
+  "license": "MIT"
 }
