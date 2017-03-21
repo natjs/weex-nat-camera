@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-camera"
-    version="0.1.0">
+    version="0.1.3">
     <name>nat-camera</name>
-    <description></description>
+    <description>Nat.js module: Camera</description>
     <license>MIT</license>
     <keywords>weex,plugin,nat,natjs,camera</keywords>
-    <repo>https://github.com/Natjs/weex-nat-camera.git</repo>
-    <issue>https://github.com/Natjs/weex-nat-camera/issues</issue>
+    <repo>https://github.com/natjs/weex-nat-camera.git</repo>
+    <issue>https://github.com/natjs/weex-nat-camera/issues</issue>
     
      <!-- ios -->
      <platform name="ios">
