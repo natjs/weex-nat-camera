@@ -1,6 +1,6 @@
 {
   "name": "nat-camera",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Nat.js module: Camera",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
