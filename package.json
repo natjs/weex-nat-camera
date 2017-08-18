@@ -1,21 +1,18 @@
 {
-  "name": "nat-camera",
-  "version": "0.1.4",
-  "description": "Nat.js module: Camera",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Nat",
-    "camera",
-    "take",
-    "photo",
-    "video",
-    "Weex",
-    "Plugin",
-    "module",
-    "handle"
-  ],
-  "author": "Acathur",
-  "license": "MIT"
+    "version": "0.1.6",
+    "platform": [
+        "ios",
+        "android"
+    ],
+    "description": "Nat.js module: Camera",
+    "keywords": [
+        "weex",
+        "plugin",
+        "nat",
+        "natjs",
+        "camera",
+        "video"
+    ],
+    "license": "MIT",
+    "name": "nat-camera"
 }
