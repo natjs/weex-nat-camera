@@ -6,31 +6,31 @@
 //
 
 #import "WeexNatCamera.h"
-#import "NatCamera.h"
-
+#import <WeexPluginLoader/WeexPluginLoader.h>
+#import <NatCamera/NatCamera.h>
 
 #define KOriginalPhotoImagePath   \
 [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"OriginalPhotoImages"]
 
 @implementation WeexNatCamera
 @synthesize weexInstance;
+
+WX_PlUGIN_EXPORT_MODULE(nat/camera, WeexNatCamera)
 WX_EXPORT_METHOD(@selector(captureImage::))
 WX_EXPORT_METHOD(@selector(captureVideo::))
 
 - (void)captureImage:(NSDictionary *)params :(WXModuleCallback)callback{
-    
     [[NatCamera singletonManger] captureImage:params :^(id error,id result) {
         if (error) {
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
         }
     }];
-    
 }
 
 - (void)captureVideo:(NSDictionary *)params :(WXModuleCallback)callback{
@@ -39,7 +39,7 @@ WX_EXPORT_METHOD(@selector(captureVideo::))
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
