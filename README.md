@@ -1,6 +1,6 @@
 # nat-camera
 
-- [Documentation](http://natjs.com/#/#camera)
+- [Documentation](http://natjs.com/#/reference/camera)
 - [Github](https://github.com/natjs/weex-nat-camera)
 
 ## Installation

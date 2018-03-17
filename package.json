@@ -1,8 +1,8 @@
 {
   "name": "nat-camera",
-  "version": "1.0.0-alpha",
+  "version": "1.0.2",
   "main": "./js/build/main.js",
-  "description": "Nat.js module for weex: ______",
+  "description": "Nat.js module for weex: Camera",
   "license": "MIT",
   "WeexSDKVersoin": "0.16.0",
   "ios": {
@@ -14,7 +14,7 @@
     "type": "maven",
     "groupId": "com.instapp.nat",
     "name": "weex-plugin-camera",
-    "version": "1.0.0-alpha"
+    "version": "1.0.2"
   },
   "keywords": [
     "nat",
